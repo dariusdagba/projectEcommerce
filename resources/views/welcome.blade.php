@@ -124,48 +124,95 @@
             </button>
           </div>
     </section>
-    <section class="mb-3">
-        <div class="container">
+    <section class="mb-3 mx-5">
+        <div class="container-fluid">
             <div class="row row-cols-lg-3 row-cols-1 row-cols-md-2">
-                <div class="col position-relative">
+                <div class="col position-relative mb-md-2 mb-sm-2">
                     <img src="/assets/modele-1.png" class="d-block w-100" alt="First Image">
-                    <button class="btn btn-outline-success position-absolute bottom-0 end-0 m-3 rounded-end-4 rounded-start-4">Women</button>
+                    <button class="btn btn-dark  position-absolute bottom-0 end-0 m-3 rounded-end-4 rounded-start-4">Women</button>
                 </div>
-                <div class="col position-relative">
+                <div class="col position-relative mb-md-2 mb-sm-2">
                     <img src="/assets/modele-2.jpg" class="d-block w-100" alt="Second Image">
-                    <button class="btn btn-outline-success position-absolute bottom-0 end-0 m-3 rounded-end-4 rounded-start-4">Men</button>
+                    <button class="btn btn-dark  position-absolute bottom-0 end-0 m-3 rounded-end-4 rounded-start-4">Men</button>
                 </div>
-                <div class="col position-relative">
+                <div class="col position-relative mb-md-2 mb-sm-2">
                     <img src="/assets/modele-3.jpg" class="w-100 h-100" alt="Third Image">
-                    <button class="btn btn-outline-success position-absolute bottom-0 end-0 m-3 rounded-end-4 rounded-start-4">Kids</button>
+                    <button class="btn btn-dark  position-absolute bottom-0 end-0 m-3 rounded-end-4 rounded-start-4">Kids</button>
                 </div>
             </div>
         </div>
     </section>
-    <section class="mb-3">
-        <div class="container">
+    <section class="mb-5 mx-5">
+        <div class="container-fluid">
             <div class="row row-cols-lg-2 row-cols-1">
-                <div class="col position-relative">
+                <div class="col position-relative mb-md-2 mb-sm-2">
                     <img src="/assets/modele-4.jpg" class="w-100 h-100" alt="Fourth Image">
                     <div class="position-absolute bottom-0 start-0 m-3">
-                        <h2>New in football</h2>
-                        <p>Mad Energy Pack</p>
-                        <button class="btn btn-outline-success rounded-end-5 rounded-start-4">Shop Now</button>
+                        <h2 class="text-white">New in football</h2>
+                        <p class="text-white">Mad Energy Pack</p>
+                        <button class="btn btn-dark  rounded-end-4 rounded-start-4">Shop Now</button>
                     </div>
                 </div>
-                <div class="col position-relative">
-                    <img src="/assets/modele-5.jpg" class="w-100 h-100" alt="Fourth Image">
+                <div class="col position-relative mb-md-2 mb-sm-2">
+                    <img src="/assets/modele-5.png" class="w-100 h-100" alt="Fourth Image">
                     <div class="position-absolute bottom-0 start-0 m-3">
-                        <h2>New in Running</h2>
-                        <p>Vomero 18.</p>
-                        <button class="btn btn-outline-success rounded-end-4 rounded-start-4">Shop Now</button>
+                        <h2 class="text-white">New in Running</h2>
+                        <p class="text-white">Vomero 18.</p>
+                        <button class="btn btn-dark  rounded-end-4 rounded-start-4">Shop Now</button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="mb-3"></section>
-    <section class="mb-3"></section>
+    <section class="mx-5 mb-5">
+        <div class="container-fluid">
+            <div class="row row-cols-1">
+                <div class="col position-relative">
+                    <img src="/assets/modele-6.webp" class="w-100" alt="six Image">
+                    <div class="position-absolute bottom-0 start-0 m-3">
+                        <p class="text-white">Vomero 18</p>
+                        <h2 class="text-white">Best sell.</h2>
+                        <button class="btn btn-dark rounded-end-4 rounded-start-4">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
+<footer class="m-0 p-0">   
+    <div class="container-fluid mx-5">
+        <div class="container ">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+                <div class="col">
+                    <p class="fw-bold">Shoes</p>
+                    <p>White Running Shoes</p>
+                    <p>Black Running Shoes</p>
+                    <p>Jordan</p>
+                    <p>Nike P-6000</p>
+                </div>
+                <div class="col">
+                    <p class="fw-bold">Clothing</p>
+                    <p>Polo</p>
+                    <p>T-Shirt</p>
+                    <p>Jogging</p>
+                </div>
+                <div class="col">
+                    <p class="fw-bold">Kid'S</p>
+                    <p>Girl'White Shoes</p>
+                    <p>Kid'Black Shoes</p>
+                </div>
+                <div class="col">
+                    <p class="fw-bold">Featured</p>
+                    <p>Avery club</p>
+                    <p>Football club Teams</p>
+                    <p>Jordan</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+        <hr class=" mx-5">
+
+</footer>
 </html>
